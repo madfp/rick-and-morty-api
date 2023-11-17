@@ -9,7 +9,7 @@ function Header() {
             <ul className="gap-10">
                 <li>
                     <a href="https://github.com/madfp" target="_blank" className="transition-all duration-300 hover:opacity-[.5]">
-                        <img src="/github.svg" alt="" className="w-5"/>
+                        <img src="./github.svg" alt="" className="w-5"/>
                     </a>
                 </li>
             </ul>
