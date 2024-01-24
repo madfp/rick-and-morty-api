@@ -22,17 +22,11 @@ function App() {
 
   return (
     <>
-      <div className='w-full grid grid-cols-1 justify-center items-center md:grid-cols-2 py-20'>
+      <div className='w-full grid grid-cols-1 justify-center items-center md:grid-cols-2 lg:grid-cols-3 py-20'>
         {
           characters.map(
             (character:CharacterData)=>(
               <Character key={character.id} character={character}/>
-              /*<div key={character.id} className='border-2 flex mx-5 my-2'>
-                <img src={character.image} alt="character" className='w-[50%] sm:w-[40%] lg:w-[30%]'/>
-                <div className='mx-10 my-5'>
-                  <h1>{character.name}</h1>
-                </div>
-              </div>*/
             )
           )
         }
