@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full grid grid-cols-1 justify-center items-center md:grid-cols-2 lg:grid-cols-3 py-20'>
+      <div className='w-full grid grid-cols-1 justify-center items-center md:grid-cols-2 lg:grid-cols-3 pb-20'>
         {
           characters.map(
             (character:CharacterData)=>(
